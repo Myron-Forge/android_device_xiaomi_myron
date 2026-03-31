@@ -12,9 +12,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 # Inherit from myron device
 $(call inherit-product, device/xiaomi/myron/device.mk)
 
-# Inherit some common OrangeFox stuff.
-$(call inherit-product, vendor/fox/config/common.mk)
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := myron
 PRODUCT_NAME := twrp_myron
