@@ -29,15 +29,15 @@ ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
 # Bootloader
-PRODUCT_PLATFORM := kaanapali
+PRODUCT_PLATFORM := canoe
 TARGET_BOOTLOADER_BOARD_NAME := myron
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
-# Platform - Snapdragon 8 Elite (SM8850)
-TARGET_BOARD_PLATFORM := kaanapali
+# Platform - Snapdragon (canoe)
+TARGET_BOARD_PLATFORM := canoe
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno730
-QCOM_BOARD_PLATFORMS += kaanapali
+QCOM_BOARD_PLATFORMS += canoe
 
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image

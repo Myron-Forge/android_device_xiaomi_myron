@@ -22,7 +22,7 @@ ENABLE_VIRTUAL_AB := true
 
 # Boot Control HAL
 PRODUCT_PACKAGES += \
-    bootctrl.kaanapali.recovery \
+    bootctrl.canoe \
     android.hardware.boot@1.2-impl-qti.recovery
 
 # Soong namespaces
