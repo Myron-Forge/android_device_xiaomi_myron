@@ -18,8 +18,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 # Configure emulated_storage.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
-# Inherit some common OrangeFox stuff.
-$(call inherit-product, vendor/fox/config/common.mk)
+# Inherit some common TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from myron device
 $(call inherit-product, device/xiaomi/myron/device.mk)
