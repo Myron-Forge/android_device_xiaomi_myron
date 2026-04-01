@@ -92,3 +92,8 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
+
+# Brightness
+TW_MAX_BRIGHTNESS := 16383
+TW_DEFAULT_BRIGHTNESS := 7000
+TW_BRIGHTNESS_PATH := /sys/class/backlight/panel0-backlight/brightness
